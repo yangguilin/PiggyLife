@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.ygl.piggylife.notebook.HomeActivity" >
+
+    <item android:id="@+id/action_query"
+        android:title="@string/menu_query"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_category_manager"
+        android:title="@string/menu_category_manager"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_quit"
+        android:title="@string/menu_quit"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_about"
+        android:title="@string/menu_about"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+</menu>

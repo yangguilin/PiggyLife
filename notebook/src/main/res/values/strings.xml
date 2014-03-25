@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">小猪爱记账</string>
+    <string name="ad_tv_cost">支出</string>
+    <string name="ad_tv_income">收入</string>
+    <string name="ad_tv_normal">日常</string>
+    <string name="ad_tv_period">阶段</string>
+    <string name="ad_tv_big">大额</string>
+    <string name="ad_btn_save_continue">保存/继续</string>
+    <string name="ad_btn_save_quit">保存/退出</string>
+    <string name="ad_btn_quit">返回</string>
+    <string name="ad_amount">金额:</string>
+    <string name="ad_category">类别:</string>
+    <string name="ad_remark">备注:</string>
+    <string name="ce_type">类型:</string>
+    <string name="ce_name">名称:</string>
+    <string name="ce_description">描述:</string>
+    <string name="ce_btn_return">返回</string>
+    <string name="ce_btn_update">更新</string>
+    <string name="menu_add">记账</string>
+    <string name="menu_home">钱包首页</string>
+    <string name="menu_query">近期记录</string>
+    <string name="menu_stat">统计分析</string>
+    <string name="menu_about">关于小猪</string>
+    <string name="menu_quit">退出登录</string>
+    <string name="menu_category_manager">分类管理</string>
+    <string name="login_username">账号:</string>
+    <string name="login_password">密码:</string>
+    <string name="login_title">亲,怎么称呼?</string>
+    <string name="login_btn_login">登录</string>
+    <string name="login_btn_register">我想试试</string>
+    <string name="register_tv_title">账号+密码,就这么简单!</string>
+    <string name="register_btn_go">来个账号</string>
+    <string name="register_tv_username">账号:</string>
+    <string name="register_tv_password">密码:</string>
+    <string name="register_tv_confirm_password">重复密码:</string>
+    <string name="home_tv_cmc">本月已为GDP贡献</string>
+    <string name="home_btn_addnote">记一笔</string>
+    <string name="title_activity_category_manager">分类管理</string>
+    <string name="title_activity_category_edit">修改分类</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_query">近期记录</string>
+    <string name="title_activity_register">注册账户</string>
+</resources>

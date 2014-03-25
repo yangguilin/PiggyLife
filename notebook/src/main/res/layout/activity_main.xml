@@ -1,0 +1,213 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.ygl.piggylife.notebook.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:id="@+id/linearLayout">
+
+            <RadioGroup
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:id="@+id/rg_notetype">
+                <RadioButton
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:text="@string/ad_tv_cost"
+                    android:id="@+id/rb_notetype_cost"
+                    android:checked="true" />
+
+                <RadioButton
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:text="@string/ad_tv_income"
+                    android:id="@+id/rb_notetype_income"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="-20dp" />
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:id="@+id/textView3" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <RadioGroup
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:id="@+id/rg_stattype">
+
+                <RadioButton
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:text="@string/ad_tv_normal"
+                    android:id="@+id/rb_stattype_normal"
+                    android:checked="true"/>
+                <RadioButton
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/rb_stattype_period"
+                    android:text="@string/ad_tv_period" />
+                <RadioButton
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/rb_stattype_big"
+                    android:text="@string/ad_tv_big" />
+
+                </RadioGroup>
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:id="@+id/tv_amount"
+                android:text="@string/ad_amount"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:gravity="center" />
+
+            <EditText
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/et_amount" />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/textView" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/ad_category"
+                android:id="@+id/tv_category"
+                android:gravity="center" />
+
+            <Spinner
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:id="@+id/spinner_category"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/textView4" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="70dp"
+                android:gravity="center"
+                android:text="@string/ad_remark"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+            <EditText
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:id="@+id/et_remark" />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/textView2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal|bottom">
+
+            <Button
+                android:layout_width="110dp"
+                android:layout_height="60dp"
+                android:text="@string/ad_btn_save_continue"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold"
+                android:id="@+id/btn_ad_save_continue"
+                android:visibility="gone" />
+
+            <Button
+                android:layout_width="110dp"
+                android:layout_height="60dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold"
+                android:text="@string/ad_btn_save_quit"
+                android:id="@+id/btn_ad_save_quit"
+                android:singleLine="false"
+                android:layout_marginLeft="20dp"
+                android:visibility="gone" />
+
+            <Button
+                android:layout_width="240dp"
+                android:layout_height="60dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold"
+                android:text="@string/ad_btn_quit"
+                android:id="@+id/btn_ad_quit"
+                android:singleLine="false"
+                android:visibility="visible" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
